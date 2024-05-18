@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<PackageProjectUrl>https://github.com/marcoservio/hateoas</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/marcoservio/hateoas</RepositoryUrl>
+		<PackageTags>HATEOAS</PackageTags>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Copyright>Copyright © Jiskoloviske</Copyright>
+		<Description>This is a smart library to implements HATEOAS docummentation in your RESTFul API's</Description>
+		<Version>8.0.105.1</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App"></FrameworkReference>
+	</ItemGroup>
+
+</Project>
