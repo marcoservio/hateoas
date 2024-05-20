@@ -1,0 +1,19 @@
+name: .NET 8 Continuous Integrations with GitHub, GitHub Actions and Nuget Packages
+
+on:
+  push:
+    branches: master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest  
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install .NET 8
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
