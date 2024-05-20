@@ -7,7 +7,7 @@ This is a smart library to implements HATEOAS pattern in your RESTFul API's, imp
 
 > ## How to use
 
->### 1 - Import Jisko.HATEOAS to your projetct
+>### 1 - Import Jisko.HATEOAS to your project
 #### Import with command line
 ```bash
 Install-Package Jisko.HATEOAS -Version 8.0.101.5
