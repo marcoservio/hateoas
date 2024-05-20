@@ -11,10 +11,14 @@
 		<Copyright>Copyright © Jiskoloviske</Copyright>
 		<Description>This is a smart library to implements HATEOAS docummentation in your RESTFul API's</Description>
 		<Version>8.0.105.5</Version>
+		<PackageIcon>consultor-estrategico.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App"></FrameworkReference>
+		<None Include="docs\README.md" Pack="true" PackagePath="\" />
+		<None Include="icons\consultor-estrategico.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
