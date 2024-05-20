@@ -49,6 +49,9 @@ jobs:
     - name: Generate Release
       run: dotnet build -c release
 
+    - name: Delete old dist
+      run: rm -rf ./dist
+
     - name: Generate Nuget Package
       run: dotnet pack -c release -o ./dist/
 
