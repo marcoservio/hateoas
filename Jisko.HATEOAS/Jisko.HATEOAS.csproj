@@ -10,7 +10,7 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Copyright>Copyright © Jiskoloviske</Copyright>
 		<Description>This is a smart library to implements HATEOAS docummentation in your RESTFul API's</Description>
-		<Version>8.0.105.2</Version>
+		<Version>8.0.105.3</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
